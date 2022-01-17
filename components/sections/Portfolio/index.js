@@ -1,8 +1,7 @@
 import React from 'react';
 import s from './styles.module.scss';
 import Fade from 'react-reveal/Fade';
-
-import PortItem from './portItems';
+import PortItem from '../../PortItems';
 
 export default function Portfolio() {
 
