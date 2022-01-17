@@ -11,11 +11,12 @@ export default function About() {
         <Fade right cascade delay={200}>
           <h2 className={s.chapter}>About Me</h2>
           <h3 className={s.title}>Who I am</h3>
-          <p className={s.body}>
-            I am passionate about what I do, enjoy every bit of it and love to
-            learn.
-          </p>
         </Fade>
+        <p className={s.body}>
+          I am passionate about what I do, enjoy every bit of it and love to
+          learn.
+        </p>
+
         <Fade delay={300}>
           <Tabs>
             <TabList>
@@ -26,17 +27,19 @@ export default function About() {
 
             <TabPanel>
               <p>
-                I am a frontend developer, Specializing in mostly React JS and Wordpress (You know we had to at some point). 
-                <br/>
-                <br/>
-                Dabble in the 3D arts like three js and also others enjoy making great visuals 
-                with JavaScript and user interfaces. Very outgoing person who also likes
-                to experiment with different things and get good at it. Fluent
-                communication is the best way to improve efficiency and
-                productivity on almost everything, team or client-related. I have
-                worked with clients across the world, UK, India, Kenya to name a
-                few from different companies of large multi-million corporations
-                to small community shops and companies.
+                I am a frontend developer, Specializing in mostly React JS and
+                Wordpress (You know we had to at some point).
+                <br />
+                <br />
+                Dabble in the 3D arts like three js and also others enjoy making
+                great visuals with JavaScript and user interfaces. Very outgoing
+                person who also likes to experiment with different things and
+                get good at it. Fluent communication is the best way to improve
+                efficiency and productivity on almost everything, team or
+                client-related. I have worked with clients across the world, UK,
+                India, Kenya to name a few from different companies of large
+                multi-million corporations to small community shops and
+                companies.
               </p>
             </TabPanel>
             <TabPanel>
