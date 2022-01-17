@@ -1,0 +1,33 @@
+.techIcons {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    
+    i {
+        margin-left: 0.5em;
+        cursor: pointer;
+        opacity: 0.8;
+        transition: 0.7s;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+    width: 95%;
+    margin: auto;
+    z-index: 9999 !important;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}

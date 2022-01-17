@@ -1,0 +1,61 @@
+.item {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(4px);
+
+    transition: 0.7s;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+
+    overflow: hidden;
+
+    .content {
+        padding: 0.2em 0.6em;
+        padding-bottom: 0.6em;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 52%;
+
+        .title, .snipet, .link {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 4px;
+        }
+
+        .snipet {
+            opacity: 0.7;
+            font-size: 12px;
+        }
+
+        .link {
+            justify-self: flex-end;
+            margin: 0;
+            margin-top: auto;
+        }
+
+        .link i {
+            font-size: 10px;
+            margin-top: -4px;
+            transition: margin-left 0.3s;
+        }
+
+        .link:hover i {
+            margin-left: 4px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+        .content {
+            height: auto !important;
+        }
+    }
+}

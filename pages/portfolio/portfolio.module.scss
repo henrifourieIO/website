@@ -1,0 +1,96 @@
+.root {
+    position: relative;
+    padding: 3em 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+
+    section {
+        position: relative;
+    }
+
+    .about {
+        max-width: 500px;
+        width: 40%;
+        position: fixed;
+        top: 50%;
+        transform: translate(0, -50%);
+
+        .chapter {
+            font-size: 36px;
+            color: var(--primary);
+            line-height: 1em;
+            margin: 0;
+            margin-bottom: 8px;
+        }
+
+        .title {
+            font-size: 48px;
+            line-height: 1em;
+            margin: 0;
+            margin-bottom: 16px;
+        }
+
+        .button {
+            font-family: 'DM Serif Display', serif;
+            font-size: 20px;
+            border: 0;
+            border-radius: 8px;
+            padding: 0.5em 1em;
+            margin-left: 1px;
+            margin-right: 1px;
+            margin-top: 1.5em;
+            background-color: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(4px);
+            color: #fff;
+            border: 2px solid #fff;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            &:hover {
+                backdrop-filter: blur(8px);
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+        }
+
+        .tech {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1em;
+
+            font-size: 12px;
+            font-style: italic;
+
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+            margin-top: 2em;
+
+            .techIcons {
+                font-size: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+                i, img {
+                    margin-left: 0.5em;
+                }
+            }
+        }
+    }
+
+ 
+}
+
+@media screen and (max-width: 768px) {
+    .root {
+        grid-template-columns: 1fr !important;
+        padding-left: 54px;
+
+        .about {
+            position: relative;
+            width: 100%;
+        }
+    }
+}
