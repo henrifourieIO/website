@@ -22,7 +22,7 @@ export default function Portfolio() {
                     />
                     <PortItem 
                     name="legacy lifestyle"
-                    image="/images/antireality-thumb.png"
+                    image="/images/legacy.png"
                     snipet="Experimental Apps, Campaigns & Games"
                     link="/portfolio/legacy-lifestyle"
                     />
