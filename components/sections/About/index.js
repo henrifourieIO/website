@@ -27,8 +27,7 @@ export default function About() {
 
             <TabPanel>
               <p>
-                I am a frontend developer, Specializing in mostly React JS and
-                Wordpress (You know we had to at some point).
+                I am a full-stack developer, Specializing in mostly React JS, and node, but PHP is there as well.
                 <br />
                 <br />
                 Dabble in the 3D arts like three js and also others enjoy making
@@ -64,6 +63,11 @@ export default function About() {
                     <td>JS</td>
                     <td>7/10</td>
                     <td>4 Years</td>
+                  </tr>
+                  <tr>
+                    <td>PHP</td>
+                    <td>6/10</td>
+                    <td>2 Years</td>
                   </tr>
                   <tr>
                     <td>ReactJS</td>
