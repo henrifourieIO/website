@@ -18,16 +18,14 @@ export default function Alto234() {
         <section>
           <div className={s.about}>
             <div>
-              <h2 className={s.chapter}>High in the sky</h2>
-              <h1 className={s.title}>Alto 234</h1>
+              <h2 className={s.chapter}>EXPERIENTIAL APPS, CAMPAIGNS & GAMES</h2>
+              <h1 className={s.title}>Anti-Reality</h1>
               <p className={s.body}>
-                The highest, urban bar in Africa. Found on the rooftop of The
-                Leonardo in Sandton, the space boasts 360-degree views over one
-                of the most-wooded cities in the world.
+                Solve your most complex tech problems & bring your ideas to life with the power of XR.
               </p>
             </div>
             <div style={{ width: "fit-content" }}>
-              <a href="https://alto234.co.za" target="_blank">
+              <a href="https://antireality.co.za" target="_blank">
                 <button className={s.button}>Visit Site</button>
               </a>
             </div>
@@ -38,12 +36,7 @@ export default function Alto234() {
                 <i className="fab fa-html5"></i>
                 <i className="fab fa-css3-alt"></i>
                 <i className="fab fa-js"></i>
-                <i className="fab fa-bootstrap"></i>
-                <img
-                  src="/images/adobe.png"
-                  alt="adobe coldfusion"
-                  style={{ width: "20px" }}
-                />
+                <i className="fab fa-react"></i>
               </div>
             </div>
             <div
@@ -62,17 +55,12 @@ export default function Alto234() {
           <section>
             <div className={s.extra}>
               <div>
-                <p>
-                  A cool and amazing site that was built on short notice with a
-                  deadline in 3 days, was quite a fun project to work on and
-                  finished ahead of schedule.
+                <p style={{textTransform: 'lowercase'}}>
+                  ENGAGE YOUR AUDIENCE LIKE NEVER BEFORE, WITH EXPERIENCES THAT WILL STAY WITH THEM FOR LIFE.
                   <br />
-                  With complex carousals, with a weather forecast API was to
-                  most complicated part of it all.
+                  THE SANBS APPROACHED US TO FIND A WAY TO RESONATE WITH THE GEN Z AND YOUNGER AUDIENCE. TRADITIONAL MARKETING DOESN'T WORK WELL ON THIS HYPER-STIMULATED, GAMING-CRAZED, DIGITALLY-ENABLED YOUNG GENERATION-SO WE KICKED IT UP A NOTCH.
                   <br />
-                  The markup had to be coded out so that the backdrop-filter
-                  style could work, if you worked with it before it is quite a
-                  funny thing to get working properly.
+                  IT'S 2021 YET SOME THINGS ARE A LITTLE BACKWARDS. INCLUDING THE GAMES INSDUSTRY, WITH MOST MAIN CHARACKTERS BEING WHITE MALES. SO WE SET OUT TO SHAKE THINGS UP A LITTLE, BYINTRODUCING NALEDI- ONE OF THE VERY FEW BLACK FEMALE LEAD CHARACKTERS IN THE GAMING WORLD. CATCH HER SLIDING AROUND IN HER AFROFUTURSITIC GEAR, IN THIS ADDICTIVE, SUPER-CASUAL GAME.
                   <br />
                   Also the cool animated button that just adding that extra WOW
                   to the site.
@@ -82,16 +70,7 @@ export default function Alto234() {
               </div>
               <div style={{ borderRadius: "12px", overflow: "hidden" }}>
                 <Image
-                  src="/images/alto-portfolio/img-01.png"
-                  height={1080}
-                  width={1920}
-                  objectFit="contain"
-                />
-              </div>
-
-              <div style={{ borderRadius: "12px", overflow: "hidden" }}>
-                <Image
-                  src="/images/alto-portfolio/img-02.png"
+                  src="/images/Screenshot_20.png"
                   height={1080}
                   width={1920}
                   objectFit="contain"
@@ -99,7 +78,7 @@ export default function Alto234() {
               </div>
               <div style={{ borderRadius: "12px", overflow: "hidden" }}>
                 <Image
-                  src="/images/alto-portfolio/img-03.png"
+                  src="/images/Screenshot_22.png"
                   height={1080}
                   width={1920}
                   objectFit="contain"

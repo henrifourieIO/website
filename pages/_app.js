@@ -1,11 +1,20 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import '../styles/globals.scss'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
+import Preloader from "../components/Preloader";
 
 import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
+  const [loading, seLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      seLoading(false)
+    }, 1000)
+  }, [])
+
   return (
     <>
       <Head>
@@ -26,9 +35,12 @@ function MyApp({ Component, pageProps }) {
           }}
         ></script>
       </Head>
-      <Nav />
-      <Component {...pageProps} />
-      <Footer />
+      {loading ? <Preloader /> : null}
+        <>
+          <Nav />
+          <Component {...pageProps} />
+          <Footer />
+        </>
     </>
   )
 }

@@ -15,10 +15,10 @@ export default function Portfolio() {
             <Fade bottom delay={300}>  
                 <div className={s.portItems}>
                     <PortItem 
-                    name="Alto 234"
-                    image="/images/alto-234.png"
-                    snipet="The highest, urban bar in Africa. Found on the rooftop of The Leonardo in Sandton."
-                    link="/portfolio/alto234"
+                    name="Anti-Reality"
+                    image="/images/Screenshot_20.png"
+                    snipet="Solve your most complex tech problems & bring your ideas to life with the power of XR."
+                    link="/portfolio/anti-reality"
                     />
                     <PortItem 
                     name="legacy lifestyle"

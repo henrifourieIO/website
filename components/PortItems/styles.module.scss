@@ -21,7 +21,6 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        height: 52%;
 
         .title, .snipet, .link {
             margin: 0;
@@ -32,10 +31,13 @@
         .snipet {
             opacity: 0.7;
             font-size: 12px;
+            padding-bottom: 24px;
         }
 
         .link {
-            justify-self: flex-end;
+            position: absolute;
+            bottom: 0.5em;
+            left: 0.5em;
             margin: 0;
             margin-top: auto;
         }
