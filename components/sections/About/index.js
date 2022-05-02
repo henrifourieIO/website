@@ -66,13 +66,13 @@ export default function About() {
                   </tr>
                   <tr>
                     <td>PHP</td>
-                    <td>6/10</td>
+                    <td>7/10</td>
                     <td>2 Years</td>
                   </tr>
                   <tr>
                     <td>ReactJS</td>
                     <td>7/10</td>
-                    <td>2 Years</td>
+                    <td>3 Years</td>
                   </tr>
                   <tr>
                     <td>Redux</td>

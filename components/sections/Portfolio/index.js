@@ -32,6 +32,12 @@ export default function Portfolio() {
                     snipet="Ever wanted a TV? But want to but it on credit? Well at Teljoy you can!"
                     link="/portfolio/teljoy"
                     />
+                    <PortItem 
+                    name="Ball Shooter"
+                    image="/images/ball-shooter/img-01.png"
+                    snipet="Ball Shooter game built with plain HTML and JavaScript"
+                    link="/portfolio/ball-shooter-game"
+                    />
                 </div>
             </Fade>
         </div>
